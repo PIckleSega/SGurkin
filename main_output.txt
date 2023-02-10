@@ -1,0 +1,8 @@
+  File "main.py", line 23
+    print (another_dict.keys())
+    ^
+SyntaxError: invalid syntax
+
+
+** Process exited - Return Code: 1 **
+Press Enter to exit terminal
