@@ -1,39 +1,51 @@
+#1
 a=int(input("Введите большее основание"))
 b=int(input("Введите меньшее основание"))
 h=int(input("Введите высоту"))
 c=int(float((h*2+((a-b)/2)*2)**(-0.5)))
 P=a+b+2*c
 print(P)
+
+#2
 m=int(input("Введите массу тела"))
 V=int(input("Введите объем тела"))
 p=m/V
 print(p)
+
+#3
 a=int(input("Введите первое число"))
 b=int(input("Введите второе число"))
 c=a+b
 d=a*b
 e=a-b
 print(c, e, d)
+
+#4
 N=int(input("Введите колличество жителей"))
 S=int(input("Введите площадь государства"))
 P=N/S
 print(P)
+
+#5
 a=int(input("Введите первое ребро"))
 b=int(input("Введите второе ребро"))
 c=int(input("Введите третье ребро"))
 V=a*b*c
 S=2*(a*b+b*c+a*c)
 print(V, S)
+
+#6
 n=int(input("Ввод первого числа"))
 m=int(input("Ввод второго числа"))
 A=(n+m)/2
 B=(n-m)**(1/2)
 print (A,B)
+
+#7
 n = int(input())
 while n > 0: 
     print(n % 10); n //= 10
 import math
-
 i=int(input())
 
 a=[int(a) for a in str(i)]
@@ -53,6 +65,8 @@ if sum(a)%3==0:
 else:
 
    print('сумма цифр НЕ кратна 3')
+
+#8
 a = int(input('Введите трехзначное число '))
 s = a // 100;
 d = (a - s*100) // 10;
@@ -60,6 +74,8 @@ e = a - s*100 - d*10;
 b = e*100 + d*10 + s;
 r = a - b;
 print(r)
+
+#9
 v = int(input('Введите трёхзначное число: '))
 e = v % 10
 v = v // 10
