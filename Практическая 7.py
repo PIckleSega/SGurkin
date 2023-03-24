@@ -1,3 +1,4 @@
+#1
 s1 = int(input('Введите расстояние в километрах')) 
 s2 = int(input('Введите расстояние в метрах')) 
 t1 = int(input('Введите время в часах')) 
@@ -9,7 +10,7 @@ if speed1 > speed2:
 else: 
  print('Скорость 1 меньше скорости 2 ')
 
-
+#2
 radius = int(input('Введите радиус круга')) 
 kvadrat = int(input('Введите длинну стороны квадрата')) 
 ploshad1 = 3.14 * radius * radius 
@@ -19,7 +20,7 @@ if ploshad1 > ploshad2:
 else: 
  print('площадь круга меньше площади квадрата')
 
-
+#3
 
 num1 = input() 
 num2 = input() 
@@ -31,6 +32,7 @@ else:
  min = num1 
 print('Большее число -',max, 'Меньшее число -',min)
 
+#4
 stsquare = int(input()) 
 radius = int(input()) 
 diametr = radius * 2 
@@ -39,6 +41,7 @@ if stsquare >= diametr:
 else: 
  print('Не впишется')
 
+#5
 e = int(input("Введите трехзначное число"))
 if e>1000:
   print("Ошибка")
